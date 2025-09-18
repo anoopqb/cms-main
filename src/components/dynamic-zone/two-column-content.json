@@ -1,0 +1,34 @@
+{
+  "collectionName": "components_dynamic_zone_two_column_contents",
+  "info": {
+    "displayName": "Two Column Content"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cta": {
+      "type": "component",
+      "component": "shared.cta",
+      "repeatable": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reverse_column": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}
