@@ -44,6 +44,9 @@
       "type": "component",
       "component": "shared.office-hours",
       "repeatable": true
+    },
+    "specialsText": {
+      "type": "text"
     }
   }
 }

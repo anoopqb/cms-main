@@ -401,6 +401,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
       Schema.Attribute.CustomField<'plugin::color-picker.color'>;
     propertyName: Schema.Attribute.String;
     publishedAt: Schema.Attribute.DateTime;
+    specialsText: Schema.Attribute.Text;
     topNavItems: Schema.Attribute.Component<'shared.cta', true>;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
