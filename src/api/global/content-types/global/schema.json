@@ -39,6 +39,11 @@
       "type": "component",
       "component": "shared.cta",
       "repeatable": true
+    },
+    "officeHours": {
+      "type": "component",
+      "component": "shared.office-hours",
+      "repeatable": true
     }
   }
 }

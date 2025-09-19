@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_office_hours",
+  "info": {
+    "displayName": "officeHours"
+  },
+  "options": {},
+  "attributes": {
+    "day": {
+      "type": "string"
+    },
+    "time": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

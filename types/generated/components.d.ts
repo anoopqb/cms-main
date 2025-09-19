@@ -60,6 +60,17 @@ export interface SharedCta extends Struct.ComponentSchema {
   };
 }
 
+export interface SharedOfficeHours extends Struct.ComponentSchema {
+  collectionName: 'components_shared_office_hours';
+  info: {
+    displayName: 'officeHours';
+  };
+  attributes: {
+    day: Schema.Attribute.String;
+    time: Schema.Attribute.String;
+  };
+}
+
 declare module '@strapi/strapi' {
   export module Public {
     export interface ComponentSchemas {
@@ -67,6 +78,7 @@ declare module '@strapi/strapi' {
       'dynamic-zone.one-column-content': DynamicZoneOneColumnContent;
       'dynamic-zone.two-column-content': DynamicZoneTwoColumnContent;
       'shared.cta': SharedCta;
+      'shared.office-hours': SharedOfficeHours;
     }
   }
 }

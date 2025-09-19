@@ -14,7 +14,11 @@
     "Title": {
       "type": "string"
     },
-    "dynamic_zone": {
+    "slug": {
+      "type": "uid",
+      "targetField": "Title"
+    },
+    "dynamicZone": {
       "type": "dynamiczone",
       "components": [
         "dynamic-zone.hero"
